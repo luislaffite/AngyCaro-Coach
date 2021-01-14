@@ -8,6 +8,40 @@
 }
 
 }
+@media screen and (max-width:1536px){
+    .cabeceraDiv{
+        height: 1030px;
+    }
+    .cabeceraDiv .divLogo{
+        bottom: 1000px;
+    }
+
+}
+@media screen and (max-width:1440px){
+    .cabeceraDiv {
+        height: 930px;
+    }
+    .cabeceraDiv .divLogo{
+        bottom: 950px;
+    }
+}
+@media screen and (max-width:1024px){
+    .cabeceraDiv {
+        height: 630px;
+    }
+    .cabeceraDiv .divLogo{
+        bottom: 700px;
+        width: 500px;
+    }
+    .cabeceraDiv .divRedessociales{
+        width: 400px;
+        bottom: 410px;
+    }
+    .cabeceraDiv .divRedessociales .divRedessociales__icono {
+        height: 90px;
+        width: 90px;
+    }
+}
 @media screen and (max-width:768px){
 .cabeceraDiv{
     margin-top: 0px;
@@ -84,6 +118,18 @@
         font-size: 30px;
     }
 }
+@media screen and (max-width:1536px){
+    .col__sobreMi .sobreMi__content .sobreMi__h1 .sobreMi__span1{
+        right: 160px;
+    }
+    .col__sobreMi .sobreMi__content .sobreMi__h1 .sobreMi__span2{
+        left: 140px;
+    }
+    .col__sobreMi .sobreMi__p .sobreMi__pStyle {
+        font-size: 27px;
+    }
+}
+
 @media screen and (max-width:768px){
     .container__sobreMi{
         margin: 100px auto;
@@ -203,7 +249,11 @@
         left: 130px;
     }
 }
-
+@media screen and (max-width:1536px){
+    .container__sesionesOnline .sesionesOnline__titleRow .imgCol .imgCol__div {
+        left: 90px;
+    }
+}
 @media screen and (max-width:768px){
     .container__sesionesOnline .sesionesOnline__titleRow .titleCol .titleCol__h2{
         font-size: 3rem;
