@@ -204,6 +204,14 @@
 /*container-sobreMI*/
 
 /****section-container__miFormacion****/
+@media screen and (max-width:1920px){
+    .container__miFormacion .miFormacion__tilte .miFormacion__tilteH2{
+        margin-right: 10px;
+    }
+    .container__miFormacion .miFormacion__paragraph .paragraph__p{
+        font-size: 30px;
+    }
+}
 @media screen and (max-width:768px){
     .container__miFormacion{
         height: auto;
@@ -245,6 +253,9 @@
 
 /****   ection-container__sesionesOnline ****/
 @media screen and (max-width:1920px){
+    .container__sesionesOnline .sesionesOnline__titleRow .titleCol .titleCol__h2{
+        margin-top: 300px;
+    }
     .container__sesionesOnline .sesionesOnline__titleRow .imgCol .imgCol__div{
         left: 130px;
     }
